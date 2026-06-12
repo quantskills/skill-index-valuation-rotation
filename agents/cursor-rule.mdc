@@ -1,0 +1,23 @@
+---
+description: Use the Index Valuation Rotation skill for Pandadata index valuation percentiles, valuation dashboards, fixed-investment references, and A-share industry rotation or momentum-ranking analysis.
+alwaysApply: false
+---
+
+# Index Valuation Rotation Skill
+
+When the user asks for 指数估值分位, 现在贵不贵, 估值温度计, 宽基指数定投参考, 行业轮动, 行业动量排名, or index valuation dashboard work, use the local skill package.
+
+Preferred local project path:
+
+```text
+.cursor/skills/index-valuation-rotation
+```
+
+Workflow:
+
+1. Read `.cursor/skills/index-valuation-rotation/SKILL.md`.
+2. Use the Pandadata API skill at `.cursor/skills/pandadata-api` to verify exact `panda_data` method parameters and fields before calling any API.
+3. Confirm index and industry identifiers with documented Pandadata interfaces before calculating valuation or rotation metrics.
+4. Smoke-test one target and a short date range before expanding the universe.
+5. Report in Chinese by default, cite methods, parameters, windows, latest data dates, and whether values are raw or calculated.
+6. Preserve the investment-risk guardrails in `SKILL.md`; do not invent data interfaces, credentials, valuation formulas, or trading instructions.

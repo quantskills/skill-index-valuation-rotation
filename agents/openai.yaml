@@ -1,0 +1,4 @@
+interface:
+  display_name: "Index Valuation Rotation"
+  short_description: "指数估值分位、估值温度计与A股行业轮动分析"
+  default_prompt: "Use $index-valuation-rotation 生成主要宽基指数估值温度计和行业动量轮动摘要。"
