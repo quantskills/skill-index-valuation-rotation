@@ -4,6 +4,8 @@
 
 > Is the index expensive right now? Which industries are gaining strength? — Turns index PE/PB history into a percentile-based "valuation thermometer", and industry returns into 20/60/120-day momentum rankings and rotation signals, delivered as a reproducible valuation dashboard with fixed-investment references.
 
+**Creator / Maintainer**: [`abgyjaguo`](https://github.com/abgyjaguo)
+
 <p align="center">
   <img alt="default indexes" src="https://img.shields.io/badge/default_broad_indexes-5-blue">
   <img alt="momentum windows" src="https://img.shields.io/badge/momentum_windows-20%20%7C%2060%20%7C%20120d-brightgreen">

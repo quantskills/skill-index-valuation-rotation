@@ -4,6 +4,8 @@
 
 > 指数现在贵不贵？哪个行业在走强？—— 把指数 PE/PB 历史分位算成"估值温度计"，把行业涨跌算成 20/60/120 日动量排名与轮动信号，输出可复算的估值仪表盘与定投参考。
 
+**创建者 / 维护者**：[`abgyjaguo`](https://github.com/abgyjaguo)
+
 <p align="center">
   <img alt="default indexes" src="https://img.shields.io/badge/default_broad_indexes-5-blue">
   <img alt="momentum windows" src="https://img.shields.io/badge/momentum_windows-20%20%7C%2060%20%7C%20120d-brightgreen">

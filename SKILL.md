@@ -9,6 +9,10 @@ metadata:
   repository_url: https://github.com/quantskills/skill-index-valuation-rotation
   project_type: skill
   collection: index-valuation-rotation
+  creator: abgyjaguo
+  creator_url: https://github.com/abgyjaguo
+  maintainer: abgyjaguo
+  maintainer_url: https://github.com/abgyjaguo
 ---
 
 # Index Valuation & Rotation
@@ -18,6 +22,7 @@ Use this skill to turn index valuation and industry-rotation requests into trace
 ## Maintenance & Scope
 
 - Maintain this as a QuantSkills community skill in `quantskills/skill-index-valuation-rotation`.
+- Creator and maintainer: `abgyjaguo` (`https://github.com/abgyjaguo`).
 - Support index valuation snapshots, valuation dashboards, fixed-investment research references, industry momentum rankings, and rotation summaries.
 - Depend on the sibling `pandadata-api` skill for method contracts and runtime data access.
 - Treat all outputs as research and educational material. Do not present the skill as official, certified, verified, endorsed, production-ready, or as investment advice.
