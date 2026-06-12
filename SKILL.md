@@ -13,6 +13,27 @@ metadata:
   creator_url: https://github.com/abgyjaguo
   maintainer: abgyjaguo
   maintainer_url: https://github.com/abgyjaguo
+quantSkills:
+  project_type: skill
+  category: analyst
+  tags:
+    - a-share
+    - index-valuation
+    - industry-rotation
+    - valuation-percentile
+    - pandadata
+  platforms:
+    - claude-code
+    - codex
+    - openclaw
+    - cursor
+  status: stable
+  requires:
+    - skill-pandadata-api
+  validation_level: runnable
+  maintainer_type: community
+  summary_zh: "指数估值与行业轮动分析：PE/PB 分位、估值温度、宽基定投参考、行业动量排名与轮动摘要。"
+  summary_en: "Index valuation and A-share industry rotation skill for PE/PB percentiles, valuation temperature, broad-index references, momentum ranks, and rotation summaries."
 ---
 
 # Index Valuation & Rotation
