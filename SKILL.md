@@ -36,6 +36,43 @@ quantSkills:
   summary_en: "Index valuation and A-share industry rotation skill for PE/PB percentiles, valuation temperature, broad-index references, momentum ranks, and rotation summaries."
 ---
 
+```json qsh-form
+{
+  "version": 1,
+  "task": {
+    "placeholder": "补充指数列表、行业范围、定投研究要求或自定义估值分档规则（可选）"
+  },
+  "fields": [
+    {
+      "key": "index",
+      "label": "指数",
+      "type": "select",
+      "default": "000300.SH",
+      "options": [
+        { "value": "000300.SH", "label": "沪深300" },
+        { "value": "000016.SH", "label": "上证50" },
+        { "value": "000905.SH", "label": "中证500" },
+        { "value": "399006.SZ", "label": "创业板指" },
+        { "value": "000852.SH", "label": "中证1000" }
+      ]
+    },
+    {
+      "key": "focus",
+      "label": "分析类型",
+      "type": "select",
+      "default": "combined",
+      "options": [
+        { "value": "combined", "label": "估值与轮动综合" },
+        { "value": "valuation", "label": "指数估值" },
+        { "value": "fixed_investment", "label": "定投研究参考" },
+        { "value": "rotation", "label": "行业轮动" }
+      ]
+    }
+  ],
+  "prompt_template": "{{#task}}任务与材料：\n{{task}}\n\n{{/task}}{{#attachments}}用户上传的材料（已放入工作区）：\n{{attachments}}\n\n{{/attachments}}对指数 {{index}} 开展 {{focus}} 分析，核验 Pandadata 接口和标识，计算 PE/PB 历史分位、估值温度、20/60/120 日收益及行业动量、排名变化与持续性；逐项说明方法、参数、数据窗口、最新日期、计算口径和缺失覆盖，将事实与研究解释分开，输出中文报告。"
+}
+```
+
 # Index Valuation & Rotation
 
 Use this skill to turn index valuation and industry-rotation requests into traceable Pandadata calls, reproducible calculations, and a Chinese analytical deliverable.
